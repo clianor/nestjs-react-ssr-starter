@@ -24,6 +24,8 @@
     "@nestjs/platform-express": "^7.6.5",
     "@react-ssr/core": "^0.24.0",
     "@react-ssr/nestjs-express": "^0.24.0",
+    "class-transformer": "^0.3.2",
+    "class-validator": "^0.13.1",
     "cross-env": "^7.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
