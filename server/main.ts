@@ -8,8 +8,8 @@ async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
   app.useGlobalPipes(new ValidationPipe());
   await register(app);
-  await app.listen(3000, async () => {
-    console.log(`> Ready on http://localhost:3000`);
+  await app.listen(5001, async () => {
+    console.log(`> Ready on http://localhost:5001`);
   });
 }
 bootstrap();
